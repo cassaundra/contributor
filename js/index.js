@@ -182,9 +182,9 @@ function createHeatMap(data, startYear, endYear) {
       .attr('title', (d) => {
         var countData = data.dates[d];
         var date = d3.timeFormat('%b %d, %Y')(new Date(d));
-        if (!countData || !countData.count) return `No posts on ${date}`;
-        else if (countData.count === 1) return `1 post on ${date}`;
-        else return `${countData.count} posts on ${date}`;
+        if (!countData || !countData.count) return `No contributions on ${date}`;
+        else if (countData.count === 1) return `1 contribution on ${date}`;
+        else return `${countData.count} contributions on ${date}`;
       })
       .attr('date', (d) => d)
       // Add bootstrap's tooltip event listener.
