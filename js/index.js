@@ -5,7 +5,7 @@ var TYPE_TO_FIELDS_MAPPING = {
   downvoted: ['id', 'permalink', 'created', 'subreddit', 'title']
 };
 var CELL_SIZE = 14;
-var NUMBER_OF_COLORS = 6;
+var NUMBER_OF_COLORS = 5;
 
 $(document).ready(function() {
   $('form').submit(function(e) {

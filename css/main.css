@@ -13,12 +13,11 @@ body {
   stroke-width: 3px;
 }
 
-.color0 { fill: #d6e685 }
-.color1 { fill: #44a340 }
-.color2 { fill: #28752d }
-.color3 { fill: #1e6823 }
-.color4 { fill: #365e2f }
-.color5 { fill: #144e12 }
+.color0 { fill: #ebedf0 }
+.color1 { fill: #c6e48b }
+.color2 { fill: #7bc96f }
+.color3 { fill: #239a3b }
+.color4 { fill: #196127 }
 
 .hidden { display: none; }
 
